@@ -1,7 +1,7 @@
 {
   "repo": {
     "enable": false,
-    "url": "https://github.com/username/gallery-public"
+    "url": "https://github.com/Hanze-C/gallery-public"
   },
   "storage": {
     "provider": "s3",
