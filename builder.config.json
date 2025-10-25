@@ -1,6 +1,13 @@
 {
   "repo": {
     "enable": false,
-    "url": "https://github.com/Innei/gallery-public"
+    "url": "https://github.com/username/gallery-public"
+  },
+  "storage": {
+    "provider": "s3",
+    "bucket": "hanze",
+    "region": "us-east-1",
+    "prefix": "photos/",
+    "customDomain": "s3.ap-southeast-1.idrivee2.com"
   }
 }
