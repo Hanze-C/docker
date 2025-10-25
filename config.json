@@ -1,8 +1,8 @@
 {
-  "name": "Innei's Photo Gallery",
-  "title": "Innei's Photo Gallery",
+  "name": "Hanze's Photo Gallery",
+  "title": "Hanze's Photo Gallery",
   "description": "Capturing beautiful moments in life, documenting daily warmth and emotions through my lens.",
-  "url": "https://gallery.innei.in",
+  "url": "https://gallery.hanze.icu",
   "accentColor": "#fb7185",
   "ogImage": {
     "width": 1200,
@@ -11,10 +11,10 @@
   "author": {
     "name": "Photo Gallery",
     "url": "https://innei.in/",
-    "avatar": "//cdn.jsdelivr.net/gh/Innei/static@master/avatar.png"
+    "avatar": "//cdn.jsdelivr.net/gh/Hanze-C/static@master/avatar.jpeg"
   },
   "social": {
-    "twitter": "@__oQuery"
+    "twitter": "@C_Hanze_X"
   },
   "extra": {
     "accessRepo": true
