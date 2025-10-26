@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  afilmory:
+    build: .
+    ports:
+      - '3000:3000'
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./config.json:/app/config.json:ro
+      - ./builder.config.json:/app/builder.config.json:ro
+      - ./.env:/app/.env:ro
+    depends_on:
+      - postgres
+    restart: unless-stopped
+
+  postgres:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_DB: afilmory
+      POSTGRES_USER: afilmory
+      POSTGRES_PASSWORD: your_secure_password
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
